@@ -1,0 +1,19 @@
+[
+	{
+		"name": "George Washington",
+		"delay": "2500",
+		"sayings": [
+			"It is far better to be alone, than to be in bad company.",
+			"It is batter to offer no excuse than a bad one."
+		]
+	},
+
+	{
+		"name": "Benjamin Franklin",
+		"delay": "4000",
+		"sayings": [
+			"You may delay, but time will not.",
+			"early to bed and early to rise makes a man healthy, wealthy and wise"
+		]
+	}
+]
