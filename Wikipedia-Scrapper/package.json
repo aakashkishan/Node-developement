@@ -1,0 +1,24 @@
+{
+  "name": "wiki-scrapper",
+  "version": "0.0.1",
+  "description": "A Simple Wikipedia Scrapper",
+  "main": "wikipedia_scrapper.js",
+  "scripts": {
+    "start": "node wikipedia_scrapper"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aakashkishan/Node-developement/Wikipedia-Scapper"
+  },
+  "keywords": [
+    "Wikipedia",
+    "Scrapper"
+  ],
+  "author": "aakashkishan",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "request": "^2.75.0"
+  }
+}
