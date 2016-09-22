@@ -2,9 +2,9 @@
 A simple Mail Sender that sends an email from node applications.
 
 # Demo
-![success](working.png "mail-sender success")
+![success](working.PNG "mail-sender success")
 
-![error](error.png "mail-sender error")
+![error](error.PNG "mail-sender error")
 
 # Running the Program
 	*INPUT: 
