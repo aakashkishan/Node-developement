@@ -31,17 +31,31 @@ var transporter = nodemailer.createTransport(smtpTransport( {
     host: 'smtp.gmail.com',
     port: 465,
     auth: {
-        user: 'userName',
-        pass: 'passWord'
+        user: 'vaakashkishan',
+        pass: 'NarayaNaN93'
     }
 } ));
 
 // Setup e-mail data like from & to addresses, subject and text with unicode symbols
 var mailOptions = {
-    from: '"SenderEmailId" <sender@example.com>', // sender address
-    to: 'recipient@example.com', // receiver address list
+    from: '"aakash kishan Vinjamur" <vaakashkishan@gmail.com>', // sender address
+    to: 'vaakashkishan@gmail.com', // receiver address list
     subject: 'Test Mail ✔', // Subject of the email
     text: 'Hello, Text Check?', // plaintext body
+    attachments: [
+   		{   // File on disk as an attachment
+            filename: 'file.txt',
+            path: './file.txt' // stream this file
+        }
+        {   // Filename and content type is derived from path as an attachment
+            path: '/path/to/file.txt'
+        },
+        {   // Stream as an attachment
+        	// Use this when large amount of data need to be attached 
+            filename: 'file.txt',
+            content: fs.createReadStream('file.txt')
+        },
+    ],
     html: '<b>Hello world !</b>' // html body
 };
 
